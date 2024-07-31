@@ -6,5 +6,6 @@ resource "azurerm_resource_group" "rg1" {
       environment = var.env
       project = var.project
       location = local.location
+      cc = "not-bilable"
    }
 }
