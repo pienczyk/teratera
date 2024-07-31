@@ -5,5 +5,6 @@ resource "azurerm_resource_group" "rg1" {
    tags = {
       environment = var.env
       project = var.project
+      location = local.location
    }
 }
